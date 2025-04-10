@@ -2,11 +2,40 @@
 
 **Author:** Richard Higgins
 
+This project was from my highschool computer science class in the year 2008.
+
 ## Original Mission Statement
 
 This project implements Gridworld to create a medieval era environment. The landscape includes classes such as *Fighter*, *Archer*, *FootSoldier*, *Horseman*, and *Fortress*. Each class is represented by a unique image and possesses distinct movement and combat behaviors. In this architecture, **FootSoldier** and **Horseman** extend `Bug`, whereas **Archer** and **Fortress** extend `Critter`.
 
 ---
+
+## Running
+
+1. First `git clone https://github.com/parkr/GridWorld` (thanks parkr)
+2. Then `java -cp .:GridWorld/gridworld.jar GridGenerator.java`
+
+## Examples
+
+Here is a starting grid, you can see some castles have been randomly placed in the gridworld:
+
+![Start](img/start.png "This is a starting grid.")
+
+Here is after a few steps of operations, where castles have spawned some units.
+
+![Initial](img/initial.png "This is with a few units.")
+
+Here is as the empires spawn peasants and those peasants build more castles of their own type.
+
+![Initial](img/growing.png "Here we can see some new buildings growing.")
+
+Here is in the middle of combat, you can see some empires have been destroyed.
+
+![Fighting](img/fighting.png "This is showing the end of a few empires.")
+
+Here is after many rounds, where only a few empires remain.
+
+![Dominance](img/dominance.png "This is where only a few empires remain.")
 
 ## Classes
 
