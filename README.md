@@ -4,6 +4,8 @@
 
 This project was from my highschool computer science class in the year 2008.
 
+![Demo](./img/kazam_final_optimized.gif)
+
 ## Original Mission Statement
 
 This project implements Gridworld to create a medieval era environment. The landscape includes classes such as *Fighter*, *Archer*, *FootSoldier*, *Horseman*, and *Fortress*. Each class is represented by a unique image and possesses distinct movement and combat behaviors. In this architecture, **FootSoldier** and **Horseman** extend `Bug`, whereas **Archer** and **Fortress** extend `Critter`.
